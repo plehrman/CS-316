@@ -1,0 +1,1 @@
+\project_{drinker} (\select_{count > 1} (\rename_{drinker, count} (\aggr_{drinker: count(1)} likes)));

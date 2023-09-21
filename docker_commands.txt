@@ -1,0 +1,7 @@
+docker compose start 
+docker compost stop
+docker compose exec -it ubuntu bash --login
+
+
+Path:
+~/shared/container/f2023/examples/db-beers

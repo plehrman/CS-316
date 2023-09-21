@@ -1,0 +1,1 @@
+(\project_{name} beer) \diff (\project_{beer} ((\project_{bar, beer} serves) \diff (\project_{bar, likes.beer} (\select_{likes.beer = serves.beer} (likes \join_{likes.drinker = frequents.drinker} (frequents \join serves))))));

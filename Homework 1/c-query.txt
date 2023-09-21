@@ -1,0 +1,1 @@
+\project_{s1.bar} (\select_{s1.beer = 'Corona' and s2.beer = 'Amstel'} (\rename_{s1:*} serves \join_{s1.bar = s2.bar} \rename_{s2:*} serves)); 

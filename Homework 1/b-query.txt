@@ -1,0 +1,1 @@
+\project_{name, address} (\select_{bar = 'Satisfaction' and times_a_week > 1} (drinker \join_{name=drinker} frequents));

@@ -1,0 +1,2 @@
+((\project_{drinker} likes) \diff (\project_{drinker} (\select_{beer = 'Budweiser'} likes))) \intersect (\project_{drinker} (\select_{bar = 'James Joyce Pub' and times_a_week = 2} frequents));
+    

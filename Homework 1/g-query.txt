@@ -1,0 +1,1 @@
+\project_{bar, beer} (\select_{price = max_price} (serves \join (\rename_{bar,max_price} \aggr_{bar: max(price)} (\select_{drinker = 'Amy'} frequents \join serves))));
