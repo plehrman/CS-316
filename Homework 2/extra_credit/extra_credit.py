@@ -2,8 +2,8 @@ import pandas as pd
 from itertools import combinations
 
 def main():
-    relation = ['A','B','C','D','E','F','G'] #input your relation here of format (ex: ['A', 'B', 'C', 'D', 'E'])
-    func_depend = ["A,B -> C,D", "B -> E", "C,D,E -> F", "F -> G", "A -> C,G"] #input the array of functional dependencies here of format (ex: ["A -> B", "A,B -> B,C"])
+    relation = ['A', 'B', 'C', 'D', 'E', 'F'] #input your relation here of format (ex: ['A', 'B', 'C', 'D', 'E'])
+    func_depend = ["A -> B,C", "D -> B", "E -> C", "B,C -> F"] #input the array of functional dependencies here of format (ex: ["A -> B", "A,B -> B,C"])
     all_func_depend = all_fds(func_depend) #finds all functional dependencies given Armstong's rules.
     bcnf_answer = []
 

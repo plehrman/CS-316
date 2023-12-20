@@ -1,0 +1,2 @@
+DELETE FROM Broker
+WHERE ssn = 7007007000;

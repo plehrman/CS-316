@@ -1,0 +1,2 @@
+DELETE FROM Trade
+WHERE aid = 100;

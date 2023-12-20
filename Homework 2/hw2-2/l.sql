@@ -1,0 +1,3 @@
+UPDATE Broker
+SET ssn = 1001001000
+WHERE ssn = 2002002000;

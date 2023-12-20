@@ -3,5 +3,23 @@ docker compost stop
 docker compose exec -it ubuntu bash --login
 
 
+PITS COMMANDS:
+dropdb pits; 
+createdb pits; 
+psql pits -af create.sql;
+psql pits -af load.sql;
+
+
 Path:
 ~/shared/container/f2023/examples/db-beers
+
+cp -r assignments/hw2-2/. ~/shared/hw2-2/
+cd ~/shared/hw2-2/
+ls
+
+Paths:
+
+saxonb-xquery -s f2023/examples/congress/congress.xml a.xq
+
+ mongorestore ${MONGODB_URL}?authSource=admin \
+    --gzip --archive=f2023/examples/congress/mongodb-dump.tgz

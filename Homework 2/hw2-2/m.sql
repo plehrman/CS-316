@@ -1,0 +1,1 @@
+INSERT INTO Trade Values (100, 4, 'sell', '2023-01-31 13:30:00', 'AAPL', 20.00, 143.68);
